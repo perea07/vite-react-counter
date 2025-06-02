@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <button onClick={() => increment()}>Increment</button>
         <button onClick={() => decrement()}>Decrement</button>
       </div>
+      <Footer />
     </>
   );
 }
