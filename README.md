@@ -1,6 +1,7 @@
 # React + Vite
 
 1. Instalar dependencia gh-pages
+    - npm i gh-pages
 2. Agregar configuración en el archivo vite.config.js
     -   base: "/vite-react-counter/", // 👈 nombre de tu repositorio
 3. Agregar configuración en el archivo package.json
